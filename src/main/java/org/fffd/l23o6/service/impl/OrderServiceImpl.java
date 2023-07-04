@@ -38,7 +38,7 @@ public class OrderServiceImpl implements OrderService {
         int startStationIndex = route.getStationIds().indexOf(fromStationId);
         int endStationIndex = route.getStationIds().indexOf(toStationId);
         String seat = null;
-        //////
+        /////
         double[][] priceTable = train.getSeatPrices();
         int seatTypeIndex = 0;
         ////////
