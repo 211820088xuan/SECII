@@ -1,23 +1,23 @@
+
+
 spring:
   jackson:
-    # snake case style for response json
-    property-naming-strategy: SNAKE_CASE
-    default-property-inclusion: NON_NULL
+    serialization:
+      write-dates-as-timestamps: true
 
   datasource:
-    driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3306/l23o6
-    username: root
-    password: root
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://<你的数据库地址>
+    username: <用户名>
+    password: <密码>
 
   jpa:
     show-sql: true
-    database: mysql
+    database: postgresql
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
 
-
-# sa-token:
+sa-token:
 #   token-name: token
 #   # 30 days
 #   timeout: 2592000
@@ -26,6 +26,5 @@ spring:
 #   # multi login
 #   is-concurrent: true
 #   is-share: true
-#   token-style: uuid
-#   is-log: true
-#   is-read-cookie: false
+  token-style: uuid
+  is-log: true

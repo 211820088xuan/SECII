@@ -25,9 +25,17 @@ dependencies {
     // Used for data validation
     implementation 'org.springframework.boot:spring-boot-starter-validation'
 
-    // MySQL
+
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+    // MySQL
+//    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+
+    // https://mvnrepository.com/artifact/io.hypersistence/hypersistence-utils-hibernate-62
+    implementation 'io.hypersistence:hypersistence-utils-hibernate-60:3.3.2'
+
+
+    //PostgreSQL
+    runtimeOnly 'org.postgresql:postgresql'
 
     // Redis
     implementation 'org.springframework.boot:spring-boot-starter-data-redis'
@@ -44,6 +52,16 @@ dependencies {
 
     // Docs generation
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
+
+    implementation 'io.github.lyc8503:opening-incantation-spring-boot-starter:0.0.3'
+
+    // Eureka client
+//    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.0.1'
+
+    // Mapper
+    implementation 'org.mapstruct:mapstruct:1.5.5.Final'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.5.Final'
+
 }
 
 tasks.named('test') {
