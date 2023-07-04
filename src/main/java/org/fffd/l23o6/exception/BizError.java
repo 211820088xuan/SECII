@@ -14,6 +14,8 @@ public enum BizError implements ErrorType {
     OUT_OF_SEAT(300001, "无可用座位", 400),
     ILLEAGAL_ORDER_STATUS(400001, "非法的订单状态", 400);
 
+    // TODO
+
     final int code;
     final String message;
     final int httpCode;

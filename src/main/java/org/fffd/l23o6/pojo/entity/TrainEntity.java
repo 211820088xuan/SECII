@@ -62,4 +62,6 @@ public class TrainEntity {
 
     @UpdateTimestamp
     private Date updatedAt;
+
+    // TODO
 }

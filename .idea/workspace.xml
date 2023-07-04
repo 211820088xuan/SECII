@@ -4,67 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f228796d-a9f0-4801-a977-0f9d4ecae3af" name="变更" comment="完成 KSeriesSeatStrategy 中的座位分配方法和剩余座位查询方法">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/l23o6.main.iml" beforeDir="false" />
+    <list default="true" id="f228796d-a9f0-4801-a977-0f9d4ecae3af" name="变更" comment="使用文件替换的方式改变了配置文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/L23o6Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/config/CorsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/controller/TrainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/controller/common/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/controller/common/HttpStatusCodeControllerAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/exception/BizException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/exception/ErrorType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/pojo/entity/UserEntity$UserEntityBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/pojo/entity/UserEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/pojo/vo/PagedResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/pojo/vo/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/pojo/vo/train/ListTrainRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/pojo/vo/train/TrainVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/pojo/vo/user/LoginRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/pojo/vo/user/RegisterRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/service/TrainService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/fffd/l23o6/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/L23o6Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/L23o6Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/config/CorsConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/TrainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/TrainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/common/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/common/HttpStatusCodeControllerAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/exception/BizException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/exception/ErrorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/exception/BizError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/exception/BizError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/OrderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/TrainEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/TrainEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/vo/Response.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/vo/train/ListTrainRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/vo/train/ListTrainRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/vo/train/TrainVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/vo/train/TrainVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/vo/user/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/vo/user/RegisterRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/TrainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/TrainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +41,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/code-garde-2-2/software-engineering-2/backend-iteration2/backend",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "spring.configuration.checksum": "306e6a6421264c1ff1b0b6bd32a17a13"
   }
 }]]></component>
@@ -129,6 +75,7 @@
       <workItem from="1688447318781" duration="2380000" />
       <workItem from="1688472641151" duration="132000" />
       <workItem from="1688472872543" duration="30000" />
+      <workItem from="1688472907602" duration="1255000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1688385383910</created>
@@ -165,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688448240247</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="使用文件替换的方式改变了配置文件">
+      <created>1688472946839</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688472946839</updated>
+    </task>
+    <task id="LOCAL-00007" summary="使用文件替换的方式改变了配置文件">
+      <created>1688473003674</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688473003674</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +148,7 @@
     <MESSAGE value="GSeriesSeatStrategy.java 中的座位分配完成" />
     <MESSAGE value="GSeriesSeatStrategy.java 中的座位分配完成,fix" />
     <MESSAGE value="完成 KSeriesSeatStrategy 中的座位分配方法和剩余座位查询方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成 KSeriesSeatStrategy 中的座位分配方法和剩余座位查询方法" />
+    <MESSAGE value="使用文件替换的方式改变了配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用文件替换的方式改变了配置文件" />
   </component>
 </project>

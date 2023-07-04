@@ -9,4 +9,5 @@ public class PagedResult<T> {
     private List<T> items;
     private Integer page;
     private Integer total;
+    // TODO
 }

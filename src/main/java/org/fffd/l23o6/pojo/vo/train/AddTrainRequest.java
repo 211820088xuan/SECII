@@ -41,4 +41,6 @@ public class AddTrainRequest {
     @NotNull
     private List<Date> departureTimes;
 
+
+    // TODO
 }
