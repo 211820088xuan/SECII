@@ -44,6 +44,12 @@ public class OrderEntity {
     @NotNull
     private String seat;
 
+    @NotNull
+    private String paymentType;
+
+    @NotNull
+    private Double price;
+
     @CreationTimestamp
     private Date createdAt;
 

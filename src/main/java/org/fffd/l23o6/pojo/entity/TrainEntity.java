@@ -1,5 +1,6 @@
 package org.fffd.l23o6.pojo.entity;
 
+import io.hypersistence.utils.hibernate.type.array.DoubleArrayType;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
@@ -43,6 +44,11 @@ public class TrainEntity {
     private boolean[][] seats;
 
     @NotNull
+    @Type(DoubleArrayType.class)
+    @Column(name = "seatPrices", columnDefinition = "double precision[][]")
+    private double[][] seatPrices;
+
+    @NotNull
     private TrainType trainType;
 
     @NotNull
@@ -63,5 +69,5 @@ public class TrainEntity {
     @UpdateTimestamp
     private Date updatedAt;
 
-    // TODO
+    // TO DO
 }

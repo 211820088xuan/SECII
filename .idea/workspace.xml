@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f228796d-a9f0-4801-a977-0f9d4ecae3af" name="变更" comment="使用文件替换的方式改变了配置文件">
+    <list default="true" id="f228796d-a9f0-4801-a977-0f9d4ecae3af" name="变更" comment="set TODO except services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/exception/BizError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/exception/BizError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/OrderEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/TrainEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/TrainEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/UserEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,7 @@
       <workItem from="1688447318781" duration="2380000" />
       <workItem from="1688472641151" duration="132000" />
       <workItem from="1688472872543" duration="30000" />
-      <workItem from="1688472907602" duration="1255000" />
+      <workItem from="1688472907602" duration="3780000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1688385383910</created>
@@ -126,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688473003674</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="set TODO except services">
+      <created>1688474441134</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688474441134</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +151,7 @@
     <MESSAGE value="GSeriesSeatStrategy.java 中的座位分配完成,fix" />
     <MESSAGE value="完成 KSeriesSeatStrategy 中的座位分配方法和剩余座位查询方法" />
     <MESSAGE value="使用文件替换的方式改变了配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用文件替换的方式改变了配置文件" />
+    <MESSAGE value="set TODO except services" />
+    <option name="LAST_COMMIT_MESSAGE" value="set TODO except services" />
   </component>
 </project>

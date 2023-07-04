@@ -37,7 +37,8 @@ public class UserEntity {
     private String phone;
     private String type;
     private String idn;
-    // TODO
+    // TO DO
+    private Long credit;
 
     @CreationTimestamp
     private Date createdAt;
