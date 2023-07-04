@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f228796d-a9f0-4801-a977-0f9d4ecae3af" name="变更" comment="Entity OrderEntity TrainEntity UserEntity 增加成员变量">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/OrderEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/TrainEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/TrainEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/impl/OrderServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="f228796d-a9f0-4801-a977-0f9d4ecae3af" name="变更" comment="完成了OrderServiceImpl中 createOrder 的方法，但是修改了方法的参数，增加了支付类型的选择的变量" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +68,7 @@
       <workItem from="1688447318781" duration="2380000" />
       <workItem from="1688472641151" duration="132000" />
       <workItem from="1688472872543" duration="30000" />
-      <workItem from="1688472907602" duration="7174000" />
+      <workItem from="1688472907602" duration="7579000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1688385383910</created>
@@ -138,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688479127786</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="完成了OrderServiceImpl中 createOrder 的方法，但是修改了方法的参数，增加了支付类型的选择的变量">
+      <created>1688482651586</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688482651586</updated>
+    </task>
+    <task id="LOCAL-00011" summary="完成了OrderServiceImpl中 createOrder 的方法，但是修改了方法的参数，增加了支付类型的选择的变量">
+      <created>1688482673424</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688482673424</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +172,7 @@
     <MESSAGE value="使用文件替换的方式改变了配置文件" />
     <MESSAGE value="set TODO except services" />
     <MESSAGE value="Entity OrderEntity TrainEntity UserEntity 增加成员变量" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entity OrderEntity TrainEntity UserEntity 增加成员变量" />
+    <MESSAGE value="完成了OrderServiceImpl中 createOrder 的方法，但是修改了方法的参数，增加了支付类型的选择的变量" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了OrderServiceImpl中 createOrder 的方法，但是修改了方法的参数，增加了支付类型的选择的变量" />
   </component>
 </project>
