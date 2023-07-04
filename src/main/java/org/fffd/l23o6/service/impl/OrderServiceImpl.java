@@ -1,6 +1,7 @@
 package org.fffd.l23o6.service.impl;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 import org.fffd.l23o6.dao.OrderDao;
@@ -30,28 +31,49 @@ public class OrderServiceImpl implements OrderService {
     private final RouteDao routeDao;
 
     public Long createOrder(String username, Long trainId, Long fromStationId, Long toStationId, String seatType,
-            Long seatNumber) {
+            String payType) {
         Long userId = userDao.findByUsername(username).getId();
         TrainEntity train = trainDao.findById(trainId).get();
         RouteEntity route = routeDao.findById(train.getRouteId()).get();
         int startStationIndex = route.getStationIds().indexOf(fromStationId);
         int endStationIndex = route.getStationIds().indexOf(toStationId);
         String seat = null;
+        //////
+        double[][] priceTable = train.getSeatPrices();
+        int seatTypeIndex = 0;
+        ////////
         switch (train.getTrainType()) {
             case HIGH_SPEED:
                 seat = GSeriesSeatStrategy.INSTANCE.allocSeat(startStationIndex, endStationIndex,
                         GSeriesSeatStrategy.GSeriesSeatType.fromString(seatType), train.getSeats());
+                seatTypeIndex = Objects.requireNonNull(GSeriesSeatStrategy.GSeriesSeatType.fromString(seatType)).ordinal();
+                // 0 商务座 1 一等座 2 二等座 3 无座
                 break;
             case NORMAL_SPEED:
                 seat = KSeriesSeatStrategy.INSTANCE.allocSeat(startStationIndex, endStationIndex,
                         KSeriesSeatStrategy.KSeriesSeatType.fromString(seatType), train.getSeats());
+                seatTypeIndex = Objects.requireNonNull(KSeriesSeatStrategy.KSeriesSeatType.fromString(seatType)).ordinal();
+                // 0 软卧 1 硬卧 2 软座 3 硬座 4 无座
                 break;
         }
         if (seat == null) {
             throw new BizException(BizError.OUT_OF_SEAT);
         }
-        OrderEntity order = OrderEntity.builder().trainId(trainId).userId(userId).seat(seat)
-                .status(OrderStatus.PENDING_PAYMENT).arrivalStationId(toStationId).departureStationId(fromStationId)
+
+        ///////
+        double totalPrice = 0.0;
+        for (int i = startStationIndex; i < endStationIndex; i++) {
+            totalPrice += priceTable[i][seatTypeIndex];
+        }
+        ///////
+        OrderEntity order = OrderEntity.builder()
+                .trainId(trainId)
+                .userId(userId)
+                .seat(seat)
+                .status(OrderStatus.PENDING_PAYMENT)
+                .arrivalStationId(toStationId).departureStationId(fromStationId)
+                .price(totalPrice)
+                .paymentType(payType)
                 .build();
         train.setUpdatedAt(null);// force it to update
         trainDao.save(train);

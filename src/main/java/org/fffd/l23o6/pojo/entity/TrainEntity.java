@@ -47,6 +47,7 @@ public class TrainEntity {
     @Type(DoubleArrayType.class)
     @Column(name = "seatPrices", columnDefinition = "double precision[][]")
     private double[][] seatPrices;
+    // 保存的是每一站到下一站的票的价格
 
     @NotNull
     private TrainType trainType;
