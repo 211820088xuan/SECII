@@ -54,6 +54,8 @@ public class CreateOrderRequest{
     @Pattern(regexp = "^(([软硬]卧)|([软硬无]座)|([一二]等座)|(商务座))$", message = "座位类型错误")
     private String seatType;
 
-
-    // TODO
+    @Schema(description = "支付方式", required = true)
+    @NotNull
+    private String paymentType;
+    // TO DO
 }

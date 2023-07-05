@@ -97,6 +97,8 @@ public class OrderServiceImpl implements OrderService {
                     .endStationId(order.getArrivalStationId())
                     .departureTime(train.getDepartureTimes().get(startIndex))
                     .arrivalTime(train.getArrivalTimes().get(endIndex))
+                    .paymentType(order.getPaymentType())
+                    .price(order.getPrice())
                     .build();
         }).collect(Collectors.toList());
     }
