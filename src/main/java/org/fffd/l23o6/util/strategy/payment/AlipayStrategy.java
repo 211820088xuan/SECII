@@ -38,6 +38,8 @@ public class AlipayStrategy extends PaymentStrategy{
     private static final String CHARSET = "utf-8";
     // 字符串编码格式
 
+    // return_url
+    // notify_url
 
     @Override
     public boolean pay(Long orderId, double price) {
