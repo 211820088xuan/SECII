@@ -129,14 +129,23 @@ public class OrderServiceImpl implements OrderService {
         }
 
         // TODO: refund user's money and credits if needed
+        // set the seat available again
 
-        if (order.getStatus() == OrderStatus.PENDING_PAYMENT) {
-            // 等待支付
+        if (order.getStatus() == OrderStatus.PAID) {
+            // refund user's money and credits if needed
+            Long userId = order.getUserId();
+            Double priceOrder = order.getPrice();
+            String payType = order.getPaymentType();
 
+            if (payType.equals("credit")) {
 
+            } else {
+
+            }
+        } else {
+            // order.getStatus() == OrderStatus.PENDING_PAYMENT
         }
 
-        //  order.getStatus() == OrderStatus.PAID
 
 
         order.setStatus(OrderStatus.CANCELLED);
