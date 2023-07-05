@@ -20,4 +20,6 @@ public class OrderVO {
     ///////////
     private String paymentType;
     private Double price;
+
+    private Long availableCredit;
 }

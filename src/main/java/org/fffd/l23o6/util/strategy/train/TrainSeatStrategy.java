@@ -5,5 +5,6 @@ public abstract class TrainSeatStrategy {
     public interface SeatType {
         public String getText();
     }
+    public abstract int getSeatNum(String seat);
     
 }

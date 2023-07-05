@@ -15,7 +15,6 @@ public enum BizError implements ErrorType {
     ILLEAGAL_ORDER_STATUS(400001, "非法的订单状态", 400),
     PAY_FAILED(500001, "支付失败", 400),
     REFUND_FAILED(500002, "退款失败", 400);
-    // TODO
 
 
     final int code;

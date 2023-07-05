@@ -27,7 +27,8 @@ public class OrderController {
     @PostMapping("order")
     public CommonResponse<OrderIdVO> createOrder(@Valid @RequestBody CreateOrderRequest request) {
         StpUtil.checkLogin();
-        return CommonResponse.success(new OrderIdVO(orderService.createOrder(StpUtil.getLoginIdAsString(), request.getTrainId(), request.getStartStationId(), request.getEndStationId(), request.getSeatType(), null)));
+        boolean useScore = request.isUseScore();
+        return CommonResponse.success(new OrderIdVO(orderService.createOrder(StpUtil.getLoginIdAsString(), request.getTrainId(), request.getStartStationId(), request.getEndStationId(), request.getSeatType(), request.getPaymentType(), useScore,request.getExistingScore(),request.getAvailableScore())));
     }
 
     @GetMapping("order")
@@ -58,6 +59,5 @@ public class OrderController {
         return CommonResponse.success();
     }
 
-    // TODO
 
 }

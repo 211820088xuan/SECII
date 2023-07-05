@@ -34,7 +34,7 @@ public class GSeriesSeatStrategy extends TrainSeatStrategy {
             FIRST_CLASS_SEAT_MAP.put(counter++, s);
         }
 
-        for (String s : Arrays.asList("4车1A","4车1B","4车1C","4车1D","4车2F","4车2A","4车2B","4车2C","4车2D","4车2F","4车3A","4车3B","4车3C","4车3D","4车3F")) {
+        for (String s : Arrays.asList("4车1A","4车1B","4车1C","4车1D","4车1F","4车2A","4车2B","4车2C","4车2D","4车2F","4车3A","4车3B","4车3C","4车3D","4车3F")) {
             SECOND_CLASS_SEAT_MAP.put(counter++, s);
         }
 
@@ -119,5 +119,16 @@ public class GSeriesSeatStrategy extends TrainSeatStrategy {
         return new boolean[stationCount - 1][BUSINESS_SEAT_MAP.size() + FIRST_CLASS_SEAT_MAP.size() + SECOND_CLASS_SEAT_MAP.size()];
     }
 
-
+    public int getSeatNum(String seat){
+        int counter = 0;
+        for (String s : Arrays.asList("1车1A","1车1C","1车1F",
+                "2车1A","2车1C","2车1D","2车1F","2车2A","2车2C","2车2D","2车2F","3车1A","3车1C","3车1D","3车1F",
+                "4车1A","4车1B","4车1C","4车1D","4车1F","4车2A","4车2B","4车2C","4车2D","4车2F","4车3A","4车3B","4车3C","4车3D","4车3F")) {
+            if (seat.equals(s)){
+                return counter;
+            }
+            counter++;
+        }
+        return -1;
+    }
 }

@@ -1,6 +1,7 @@
 package org.fffd.l23o6.pojo.vo.order;
 
 import io.swagger.v3.oas.annotations.media.Schema;
+import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
@@ -54,8 +55,18 @@ public class CreateOrderRequest{
     @Pattern(regexp = "^(([软硬]卧)|([软硬无]座)|([一二]等座)|(商务座))$", message = "座位类型错误")
     private String seatType;
 
+    @Schema(description = "是否使用积分")
+    private boolean useScore;
+
     @Schema(description = "支付方式", required = true)
     @NotNull
     private String paymentType;
     // 不用选择，价格
+
+    @Schema(description = "现有积分")
+    private long existingScore;
+
+    @Schema(description = "可获得积分")
+    private long availableScore;
+
 }

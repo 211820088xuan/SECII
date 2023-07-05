@@ -60,11 +60,16 @@ public class OrderEntity {
     @NotNull
     private Double price;
 
+    @NotNull
+    private Long existingCredit;
+
+    @NotNull
+    private Long availableCredit;
+
     @CreationTimestamp
     private Date createdAt;
 
     @UpdateTimestamp
     private Date updatedAt;
-
     // TO DO
 }
