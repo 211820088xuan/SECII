@@ -1,6 +1,18 @@
 package org.fffd.l23o6.util.strategy.payment;
 
 
+import com.alibaba.fastjson.JSONObject;
+import com.alipay.api.AlipayClient;
+import com.alipay.api.DefaultAlipayClient;
+import com.alipay.api.request.AlipayTradePagePayRequest;
+import com.alipay.api.request.AlipayTradePayRequest;
+import com.alipay.api.request.AlipayTradeRefundRequest;
+import com.alipay.api.response.AlipayTradePagePayResponse;
+import com.alipay.api.response.AlipayTradePayResponse;
+import com.alipay.api.response.AlipayTradeRefundResponse;
+import io.github.lyc8503.spring.starter.incantation.exception.BizException;
+import org.fffd.l23o6.exception.BizError;
+import org.fffd.l23o6.pojo.entity.OrderEntity;
 
 public class AlipayStrategy extends PaymentStrategy{
     public static final AlipayStrategy INSTANCE = new AlipayStrategy();
@@ -31,12 +43,63 @@ public class AlipayStrategy extends PaymentStrategy{
 
 
     @Override
-    public boolean pay(Long userId, Long orderId) {
+    public boolean pay(Long orderId, double price) {
+        AlipayClient alipayClient = new DefaultAlipayClient(GATEWAY_URL, APPID,
+                RSA_PRIVATE_KEY, FORMAT, CHARSET,
+                ALIPAY_PUBLIC_KEY, SIGN_TYPE);
+
+        AlipayTradePagePayRequest payRequest = new AlipayTradePagePayRequest();
+        // 设置支付参数，如订单号，金额，商品描述等
+        JSONObject bizContent = new JSONObject();
+        bizContent.put("out_trade_no", orderId + "");
+        bizContent.put("total_amount", price);
+        bizContent.put("subject", "test-for-pay");
+        bizContent.put("product_code", "FAST_INSTANT_TRADE_PAY");
+
+        payRequest.setBizContent(bizContent.toString());
+
+        try {
+            AlipayTradePagePayResponse payResponse = alipayClient.pageExecute(payRequest);
+            if (payResponse.isSuccess()) {
+                System.out.println("支付响应： " + payResponse.getBody());
+                return true;
+            } else {
+                System.out.println("支付失败");
+                throw new BizException(BizError.PAY_FAILED);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return false;
     }
 
     @Override
-    public boolean refund(Long userId, Long orderId) {
+    public boolean refund(Long orderId, double price) {
+        AlipayClient alipayClient = new DefaultAlipayClient(GATEWAY_URL, APPID,
+                RSA_PRIVATE_KEY, FORMAT, CHARSET,
+                ALIPAY_PUBLIC_KEY, SIGN_TYPE);
+        // 退款功能
+        AlipayTradeRefundRequest refundRequest = new AlipayTradeRefundRequest();
+        JSONObject bizContent = new JSONObject();
+        bizContent.put("out_trade_no", orderId + "");
+        bizContent.put("total_amount", price);
+        bizContent.put("subject", "test-for-refund");
+        bizContent.put("product_code", "FAST_INSTANT_TRADE_REFUND");
+
+        refundRequest.setBizContent(bizContent.toString());
+
+        try {
+            AlipayTradeRefundResponse refundResponse = alipayClient.execute(refundRequest);
+            if (refundResponse.isSuccess()) {
+                System.out.println("Refund: " + refundResponse.getBody());
+                return true;
+            } else {
+                System.out.println("refund failed");
+                throw new BizException(BizError.REFUND_FAILED);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return false;
     }
 }

@@ -12,9 +12,11 @@ public enum BizError implements ErrorType {
     INVALID_CREDENTIAL(200002, "用户名或密码错误", 400),
     STATIONNAME_EXISTS(200003, "同名站点已存在", 400),
     OUT_OF_SEAT(300001, "无可用座位", 400),
-    ILLEAGAL_ORDER_STATUS(400001, "非法的订单状态", 400);
-
+    ILLEAGAL_ORDER_STATUS(400001, "非法的订单状态", 400),
+    PAY_FAILED(500001, "支付失败", 400),
+    REFUND_FAILED(500002, "退款失败", 400);
     // TODO
+
 
     final int code;
     final String message;
