@@ -2,7 +2,7 @@ package org.fffd.l23o6.util.strategy.payment;
 
 
 
-public class AlipayStrategy {
+public class AlipayStrategy extends PaymentStrategy{
     public static final AlipayStrategy INSTANCE = new AlipayStrategy();
 
     private AlipayStrategy() {
@@ -30,6 +30,13 @@ public class AlipayStrategy {
     // 字符串编码格式
 
 
+    @Override
+    public boolean pay(Long userId, Long orderId) {
+        return false;
+    }
 
-
+    @Override
+    public boolean refund(Long userId, Long orderId) {
+        return false;
+    }
 }

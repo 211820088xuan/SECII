@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f228796d-a9f0-4801-a977-0f9d4ecae3af" name="变更" comment="push继续工作">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/payment/AlipayStrategy.java" afterDir="false" />
+    <list default="true" id="f228796d-a9f0-4801-a977-0f9d4ecae3af" name="变更" comment="AlipayStrategy 的成员变量">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/payment/PaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/payment/PaymentStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <workItem from="1688472872543" duration="30000" />
       <workItem from="1688472907602" duration="8699000" />
       <workItem from="1688521463659" duration="5223000" />
-      <workItem from="1688533287561" duration="4651000" />
+      <workItem from="1688533287561" duration="5411000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1688385383910</created>
@@ -196,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688527063918</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="AlipayStrategy 的成员变量">
+      <created>1688544970302</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1688544970303</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +232,7 @@
     <MESSAGE value="完成了 OrderServiceImpl 中的 getOrder 方法" />
     <MESSAGE value="完成了 OrderServiceImpl 中的 cancelOrder 写了一部分" />
     <MESSAGE value="push继续工作" />
-    <option name="LAST_COMMIT_MESSAGE" value="push继续工作" />
+    <MESSAGE value="AlipayStrategy 的成员变量" />
+    <option name="LAST_COMMIT_MESSAGE" value="AlipayStrategy 的成员变量" />
   </component>
 </project>
