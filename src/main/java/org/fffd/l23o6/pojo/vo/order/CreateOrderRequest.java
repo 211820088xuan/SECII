@@ -57,5 +57,5 @@ public class CreateOrderRequest{
     @Schema(description = "支付方式", required = true)
     @NotNull
     private String paymentType;
-    // TO DO
+    // 不用选择，价格
 }

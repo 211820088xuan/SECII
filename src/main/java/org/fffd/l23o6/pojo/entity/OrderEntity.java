@@ -66,5 +66,5 @@ public class OrderEntity {
     @UpdateTimestamp
     private Date updatedAt;
 
-    // TODO
+    // TO DO
 }
