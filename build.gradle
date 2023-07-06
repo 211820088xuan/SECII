@@ -32,6 +32,7 @@ dependencies {
 
     // https://mvnrepository.com/artifact/io.hypersistence/hypersistence-utils-hibernate-62
     implementation 'io.hypersistence:hypersistence-utils-hibernate-60:3.3.2'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
 
     //PostgreSQL

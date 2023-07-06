@@ -1,0 +1,18 @@
+{
+  "name": "train-ticket-backend",
+  "version": "1.0.0",
+  "description": "train-tricket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://seecoder-gitlab-gitlab.seec.seecoder.cn/211250081/train-ticket-backend"
+  },
+  "keywords": [
+    "xuan"
+  ],
+  "author": "xuan",
+  "license": "ISC"
+}

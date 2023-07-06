@@ -58,8 +58,13 @@ public class TrainServiceImpl implements TrainService {
     @Override
     public void addTrain(String name, Long routeId, TrainType type, String date, List<Date> arrivalTimes,
             List<Date> departureTimes) {
-        TrainEntity entity = TrainEntity.builder().name(name).routeId(routeId).trainType(type)
-                .date(date).arrivalTimes(arrivalTimes).departureTimes(departureTimes).build();
+        TrainEntity entity = TrainEntity.builder().name(name)
+                .routeId(routeId)
+                .trainType(type)
+                .date(date)
+                .arrivalTimes(arrivalTimes)
+                .departureTimes(departureTimes)
+                .build();
         RouteEntity route = routeDao.findById(routeId).get();
         if (route.getStationIds().size() != entity.getArrivalTimes().size()
                 || route.getStationIds().size() != entity.getDepartureTimes().size()) {

@@ -1,27 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="l23o6:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f228796d-a9f0-4801-a977-0f9d4ecae3af" name="变更" comment="PaymentStrategy 的接口">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/payment/WeChatPayStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/dist/assets/index-3770a0bc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/dist/assets/index-fa553136.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/dist/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/LoginForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/MenuComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/OrderDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/OrderForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/RegisterForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/RouteDetailForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/SearchTicketForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/Title.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/TrainDescription.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/TrainDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/TrainManageDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/TrainManageForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/UserInfoComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/UserOrders.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/composables/dark.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/composables/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/order.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/route.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/search.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/station.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/train.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/user.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/stores/search.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/stores/stations.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/stores/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/styles/element/dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/styles/element/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/utils/date.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/utils/interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/utils/request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/exception/BizError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/exception/BizError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/entity/OrderEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/vo/order/CreateOrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/vo/order/CreateOrderRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/vo/order/OrderVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/vo/order/OrderVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/payment/AlipayStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/payment/AlipayStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/train/GSeriesSeatStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/train/GSeriesSeatStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/train/KSeriesSeatStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/train/KSeriesSeatStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/train/TrainSeatStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/train/TrainSeatStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/L23o6Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/L23o6Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +85,37 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="l23o6" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="l23o6" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="l23o6" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -49,16 +129,27 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2S3ja2KLo1J6m33CfYIeAQc1g2H" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "15",
+    "RequestMappingsPanelWidth1": "15",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "所有位置",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/xuan/软工2/lab/train-ticket-backend",
     "node.js.detected.package.eslint": "true",
@@ -66,31 +157,127 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "工件",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.fileTypes",
     "spring.configuration.checksum": "306e6a6421264c1ff1b0b6bd32a17a13",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "java.sql.Driver",
+      "postgresql"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.L23o6ApplicationTests">
-    <configuration name="L23o6ApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.L23o6Application (1)">
+    <configuration name="train-ticket-backend [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.fffd.l23o6.L23o6ApplicationTests&quot;" />
+            <option value="assemble" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="train-ticket-backend [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="train-ticket-backend [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="train-ticket-backend [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="init" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="train-ticket-backend [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -111,7 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.L23o6ApplicationTests" />
+        <item itemvalue="Gradle.train-ticket-backend [bootRun]" />
+        <item itemvalue="Gradle.train-ticket-backend [dependencies]" />
+        <item itemvalue="Gradle.train-ticket-backend [init]" />
+        <item itemvalue="Gradle.train-ticket-backend [jar]" />
+        <item itemvalue="Gradle.train-ticket-backend [assemble]" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +324,11 @@
       <workItem from="1688521463659" duration="5223000" />
       <workItem from="1688533287561" duration="7663000" />
       <workItem from="1688552972756" duration="6783000" />
-      <workItem from="1688567710896" duration="8968000" />
+      <workItem from="1688567710896" duration="9399000" />
+      <workItem from="1688610819895" duration="4080000" />
+      <workItem from="1688615816897" duration="3168000" />
+      <workItem from="1688633793002" duration="1691000" />
+      <workItem from="1688636379672" duration="2500000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1688385383910</created>
@@ -279,6 +474,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="GSeriesSeatStrategy.java 中的座位分配完成" />
     <MESSAGE value="GSeriesSeatStrategy.java 中的座位分配完成,fix" />
