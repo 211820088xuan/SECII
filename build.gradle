@@ -65,6 +65,8 @@ dependencies {
 
     // Alipay
     implementation 'com.alipay.sdk:alipay-sdk-java:4.38.0.ALL'
+    //Wechatpay
+    implementation 'com.github.wechatpay-apiv3:wechatpay-java:0.2.9'
 
 }
 

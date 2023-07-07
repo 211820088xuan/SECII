@@ -20,6 +20,7 @@ import org.fffd.l23o6.pojo.vo.order.OrderVO;
 import org.fffd.l23o6.service.OrderService;
 import org.fffd.l23o6.util.strategy.payment.AlipayStrategy;
 import org.fffd.l23o6.util.strategy.payment.PaymentStrategy;
+import org.fffd.l23o6.util.strategy.payment.WeChatPayStrategy;
 import org.fffd.l23o6.util.strategy.train.GSeriesSeatStrategy;
 import org.fffd.l23o6.util.strategy.train.KSeriesSeatStrategy;
 import org.springframework.stereotype.Service;
@@ -41,7 +42,7 @@ public class OrderServiceImpl implements OrderService {
 
 
     public Long createOrder(String username, Long trainId, Long fromStationId, Long toStationId, String seatType
-            , String payType,boolean useScore,Long existingCredit,Long availableCredit) {
+            ,String payType,boolean useScore,Long existingCredit,Long availableCredit) {
         Long userId = userDao.findByUsername(username).getId();
         TrainEntity train = trainDao.findById(trainId).get();
         RouteEntity route = routeDao.findById(train.getRouteId()).get();
@@ -55,14 +56,14 @@ public class OrderServiceImpl implements OrderService {
         switch (train.getTrainType()) {
             case HIGH_SPEED:
                 seatKind = GSeriesSeatStrategy.INSTANCE.allocSeat(startStationIndex, endStationIndex,
-                        GSeriesSeatStrategy.GSeriesSeatType.fromString(seatKind), train.getSeats());
-                seatTypeIndex = Objects.requireNonNull(GSeriesSeatStrategy.GSeriesSeatType.fromString(seatKind)).ordinal();
+                        GSeriesSeatStrategy.GSeriesSeatType.fromString(seatType), train.getSeats());
+                seatTypeIndex = Objects.requireNonNull(GSeriesSeatStrategy.GSeriesSeatType.fromString(seatType)).ordinal();
                 // 0 商务座 1 一等座 2 二等座 3 无座
                 break;
             case NORMAL_SPEED:
                 seatKind = KSeriesSeatStrategy.INSTANCE.allocSeat(startStationIndex, endStationIndex,
-                        KSeriesSeatStrategy.KSeriesSeatType.fromString(seatKind), train.getSeats());
-                seatTypeIndex = Objects.requireNonNull(KSeriesSeatStrategy.KSeriesSeatType.fromString(seatKind)).ordinal();
+                        KSeriesSeatStrategy.KSeriesSeatType.fromString(seatType), train.getSeats());
+                seatTypeIndex = Objects.requireNonNull(KSeriesSeatStrategy.KSeriesSeatType.fromString(seatType)).ordinal();
                 // 0 软卧 1 硬卧 2 软座 3 硬座 4 无座
                 break;
         }
@@ -111,6 +112,7 @@ public class OrderServiceImpl implements OrderService {
                 .existingCredit(existingCredit)
                 .availableCredit(availableCredit)
                 .build();
+
         train.setUpdatedAt(null);// force it to update
         trainDao.save(train);
         orderDao.save(order);
@@ -171,10 +173,10 @@ public class OrderServiceImpl implements OrderService {
         if (order.getStatus() == OrderStatus.PAID) {
             //refund user's money
             PaymentStrategy paymentStrategy;
-            if (order.getPaymentType().equals("Alipay")){//支付宝支付
-                paymentStrategy = new AlipayStrategy();
+            if (order.getPaymentType().equals("支付宝支付")){//支付宝支付
+                paymentStrategy = AlipayStrategy.INSTANCE;
             }else {
-                paymentStrategy = null;
+                paymentStrategy = WeChatPayStrategy.INSTANCE;
             }
             paymentStrategy.refund(id,order.getPrice());
 
@@ -222,9 +224,9 @@ public class OrderServiceImpl implements OrderService {
         // use payment strategy to pay!
         PaymentStrategy paymentStrategy;
         if (order.getPaymentType().equals("Alipay")){//支付宝支付
-            paymentStrategy = new AlipayStrategy();
+            paymentStrategy = AlipayStrategy.INSTANCE;
         }else {
-            paymentStrategy = null;
+            paymentStrategy = WeChatPayStrategy.INSTANCE;
         }
         paymentStrategy.pay(id,order.getPrice());
 

@@ -61,7 +61,7 @@ public class CreateOrderRequest{
     @Schema(description = "支付方式", required = true)
     @NotNull
     private String paymentType;
-    // 不用选择，价格
+//     不用选择，价格
 
     @Schema(description = "现有积分")
     private long existingScore;

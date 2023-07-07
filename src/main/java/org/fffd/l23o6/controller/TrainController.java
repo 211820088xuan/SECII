@@ -68,4 +68,6 @@ public class TrainController {
         trainService.deleteTrain(trainId);
         return CommonResponse.success();
     }
+
+
 }

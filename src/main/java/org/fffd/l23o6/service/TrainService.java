@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.fffd.l23o6.pojo.enum_.TrainType;
 import org.fffd.l23o6.pojo.vo.train.AdminTrainVO;
+import org.fffd.l23o6.pojo.vo.train.TicketInfo;
 import org.fffd.l23o6.pojo.vo.train.TrainDetailVO;
 import org.fffd.l23o6.pojo.vo.train.TrainVO;
 
@@ -22,4 +23,6 @@ public interface TrainService {
             List<Date> departureTimes);
 
     public void deleteTrain(Long trainId);
+
+    public List<TicketInfo> listTickets(TrainType trainType);
 }

@@ -5,7 +5,7 @@ import java.util.List;
 import org.fffd.l23o6.pojo.vo.order.OrderVO;
 
 public interface OrderService {
-    Long createOrder(String username, Long trainId, Long fromStationId, Long toStationId, String seatType, String payType,boolean useScore,Long existingCredit,Long availableCredit);
+    Long createOrder(String username, Long trainId, Long fromStationId, Long toStationId, String seatType,String payType,boolean useScore,Long existingCredit,Long availableCredit);
     List<OrderVO> listOrders(String username);
     OrderVO getOrder(Long id);
 

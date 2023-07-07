@@ -14,7 +14,7 @@ import org.fffd.l23o6.exception.BizError;
 public class AlipayStrategy extends PaymentStrategy{
     public static final AlipayStrategy INSTANCE = new AlipayStrategy();
 
-    public AlipayStrategy() {
+    private AlipayStrategy() {
 
     }
 

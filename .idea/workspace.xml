@@ -10,67 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f228796d-a9f0-4801-a977-0f9d4ecae3af" name="变更" comment="PaymentStrategy 的接口">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/dist/assets/index-3770a0bc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/dist/assets/index-fa553136.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/dist/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/LoginForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/MenuComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/OrderDetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/OrderForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/RegisterForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/RouteDetailForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/SearchTicketForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/Title.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/TrainDescription.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/TrainDetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/TrainManageDetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/TrainManageForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/UserInfoComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/components/UserOrders.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/composables/dark.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/composables/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/order.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/register.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/route.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/search.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/station.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/train.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/pages/user.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/stores/search.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/stores/stations.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/stores/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/styles/element/dark.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/styles/element/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/utils/date.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/utils/interfaces.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/src/utils/request.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static.portal/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/L23o6Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/L23o6Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/TrainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/controller/TrainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/dao/TrainDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/dao/TrainDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/vo/order/CreateOrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/pojo/vo/order/CreateOrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/TrainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/TrainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/impl/TrainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/service/impl/TrainServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/payment/AlipayStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/payment/AlipayStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/payment/WeChatPayStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/payment/WeChatPayStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/train/GSeriesSeatStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/train/GSeriesSeatStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/train/KSeriesSeatStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fffd/l23o6/util/strategy/train/KSeriesSeatStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,43 +97,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "15",
-    "RequestMappingsPanelWidth1": "15",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TODO_SCOPE": "所有位置",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/xuan/软工2/lab/train-ticket-backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "工件",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
-    "spring.configuration.checksum": "306e6a6421264c1ff1b0b6bd32a17a13",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;15&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;15&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;所有位置&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/xuan/软工2/lab/train-ticket-backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;306e6a6421264c1ff1b0b6bd32a17a13&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "java.sql.Driver",
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;java.sql.Driver&quot;,
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.L23o6Application (1)">
+  <component name="RunManager" selected="Gradle.train-ticket-backend [dependencies]">
     <configuration name="train-ticket-backend [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -298,8 +255,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.train-ticket-backend [bootRun]" />
         <item itemvalue="Gradle.train-ticket-backend [dependencies]" />
+        <item itemvalue="Gradle.train-ticket-backend [bootRun]" />
         <item itemvalue="Gradle.train-ticket-backend [init]" />
         <item itemvalue="Gradle.train-ticket-backend [jar]" />
         <item itemvalue="Gradle.train-ticket-backend [assemble]" />
@@ -329,6 +286,7 @@
       <workItem from="1688615816897" duration="3168000" />
       <workItem from="1688633793002" duration="1691000" />
       <workItem from="1688636379672" duration="2500000" />
+      <workItem from="1688705454983" duration="12124000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1688385383910</created>

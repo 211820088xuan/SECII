@@ -131,4 +131,24 @@ public class GSeriesSeatStrategy extends TrainSeatStrategy {
         }
         return -1;
     }
+
+    public double[][] setPrice(int startStationIndex ,int endStationIndex){
+        double[][] price = new double[endStationIndex - startStationIndex][56];
+        for (int i = 0;i < 3;i++){
+            for (int j = 0; j < endStationIndex - startStationIndex;j++){
+                price[j][i] = 25;
+            }
+        }
+        for (int i = 3;i < 15;i++){
+            for (int j = 0; j < endStationIndex - startStationIndex;j++){
+                price[j][i] = 20;
+            }
+        }
+        for (int i = 15;i < 30;i++){
+            for (int j = 0; j < endStationIndex - startStationIndex;j++){
+                price[j][i] = 17;
+            }
+        }
+        return  price;
+    }
 }
